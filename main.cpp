@@ -4,9 +4,12 @@
 
 #include <string>
 
+#include <ctime> // for the random number seed generator
+
 using namespace std;
 
 int main() {
+    srand(time(NULL));
     int num_to_guess = rand() % 500; // randomizing the number to guess in a range from 0 to 500
     cout << "The number to guess should be in a range from 0 to 500.";
     int guess;
