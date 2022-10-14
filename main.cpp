@@ -24,7 +24,7 @@ int main() {
 
         if (guess > num_to_guess) { // checking if the number is higher 
             cout << "Wrong number.\n";
-            cout << "The number you typed was lower than the number to guess.\n";
+            cout << "The number you typed was higher than the number to guess.\n";
             cout << "Insert a number: ";
             cin >> guess;
         }
@@ -56,7 +56,7 @@ int main() {
 
                         if (guess > num_to_guess) { // checking if the number to guess is higher
                             cout << "Wrong number.\n";
-                            cout << "The number you typed was lower than the number to guess.\n";
+                            cout << "The number you typed was higher than the number to guess.\n";
                             cout << "Insert a number: ";
                             cin >> guess;
                         }
